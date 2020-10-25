@@ -7,7 +7,6 @@ const run = () => {
 	if (counter > img.length - 1) {
 		counter = 0;
 	}
-	// console.log(imgCon);
 	imgCon.style.transform = `translateX(${-counter * 500}px)`;
 };
 setInterval(() => {
