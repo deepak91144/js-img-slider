@@ -1,0 +1,13 @@
+.main-container {
+	width: 500px;
+	height: 500px;
+	overflow: hidden;
+}
+.img-container {
+	display: flex;
+}
+img {
+	width: 500px;
+	height: 500px;
+	object-fit: cover;
+}
